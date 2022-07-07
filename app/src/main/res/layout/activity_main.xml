@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -16,37 +15,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:backgroundTint="@color/material_on_primary_disabled"
-            android:scaleType="fitXY"
-            android:src="@drawable/menu" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip11"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#82B1FF" />
 
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:backgroundTint="@color/material_on_primary_disabled"
-            android:scaleType="fitXY"
-            android:src="@mipmap/zav" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip13"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#82B1FF" />
 
-        <ImageButton
-            android:id="@+id/imageButton3"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:backgroundTint="@color/material_on_primary_disabled"
-            android:scaleType="fitXY"
-            android:src="@mipmap/dinner" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip14"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#82B1FF" />
 
-        <ImageButton
-            android:id="@+id/imageButton4"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:backgroundTint="@color/material_on_primary_disabled"
-            android:scaleType="fitXY"
-            android:src="@mipmap/uz" />
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip12"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#82B1FF" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip10"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#82B1FF" />
     </LinearLayout>
 
     <LinearLayout
@@ -111,12 +108,11 @@
                 android:backgroundTint="@color/litgh_blue" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/button55"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_margin="5dp"
-                android:text="Button"
-                app:icon="@android:drawable/ic_input_add" />
+                android:text="Button" />
         </LinearLayout>
 
         <LinearLayout
