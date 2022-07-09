@@ -8,153 +8,146 @@
     tools:context=".MainActivity">
 
 
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/imageView122"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        android:src="@color/dark_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_color="#333333"
+        app:riv_border_width="1dp"
+        app:riv_corner_radius="10dip"
+        app:riv_mutate_background="false"
+        app:riv_tile_mode="repeat" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="90dp"
+        android:layout_marginTop="4dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.055">
+        app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip14"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
+        <ImageButton
+            android:id="@+id/addRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:backgroundTint="@color/dark_blue" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:tint="@color/white"
+            app:srcCompat="@android:drawable/ic_input_add" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip12"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:backgroundTint="@color/dark_blue" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip10"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:backgroundTint="@color/dark_blue" />
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_help" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="180dp"
-        android:orientation="vertical"
+        android:id="@+id/linearLayout2"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="@+id/imageView122"
+        app:layout_constraintVertical_bias="0.382">
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#B2DFDB"
+            android:foreground="@drawable/zav"
+            android:text="Button" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip7"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
+            <ImageButton
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/teal_700"
-                android:checkable="true"
-                android:visibility="invisible"
-                app:chipIconVisible="false" />
+                android:backgroundTint="#B39DDB"
+                android:foreground="@drawable/obed"
+                android:text="Button" />
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip8"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+            <ImageButton
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/dark_blue"
-                android:checkable="true"
-                app:chipIconVisible="false" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip9"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/teal_700"
-                android:checkable="true"
-                android:visibility="invisible"
-                app:chipIconVisible="false" />
+                android:backgroundTint="#81D4FA"
+                android:foreground="@drawable/uzh"
+                android:text="Button" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+    </LinearLayout>
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip11"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/dark_blue"
-                android:checkable="true"
-                app:chipIconVisible="false" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0">
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip4"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_margin="5dp"
-                android:background="@color/yellow"
-                android:backgroundTint="@color/litgh_blue" />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFE0B2"
+            android:foreground="@drawable/sal"
+            android:text="Button" />
 
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip13"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/dark_blue"
-                android:checkable="true"
-                app:chipIconVisible="false" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip16"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/teal_700"
-                android:checkable="true"
-                android:visibility="invisible"
-                app:chipIconVisible="false" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip17"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/dark_blue"
-                android:checkable="true"
-                android:visibility="visible"
-                app:chipIconVisible="false" />
-
-            <com.google.android.material.chip.Chip
-                android:id="@+id/chip15"
-                android:layout_width="70dp"
-                android:layout_height="70dp"
-                android:layout_weight="1"
-                android:backgroundTint="@color/teal_700"
-                android:checkable="true"
-                android:visibility="invisible"
-                app:chipIconVisible="false" />
-        </LinearLayout>
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#C8E6C9"
+            android:foreground="@drawable/zak"
+            android:text="Button" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
