@@ -10,12 +10,11 @@
     <color name="dark_blue">#3A405A</color>
     <color name="litgh_blue">#AEC5EB</color>
     <color name="koral">#EDAFB8</color>
-    <color name="yellow">#F7E1D7</color>
     <color name="str">#DEDBD2</color>
     <color name="bl">#8a7f8e</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="light_blue_900">#FF01579B</color>
-    <color name="light_blue_A200">#FF40C4FF</color>
-    <color name="light_blue_A400">#FF00B0FF</color>
-    <color name="black_overlay">#66000000</color>
+    <color name="fon">#e1d5c9</color>
+    <color name="d_yellow">#bb945d</color>
+    <color name="d_grey">#222224</color>
+    <color name="yellow">#f5cfa2</color>
+    <color name="fon2">#dad0c4</color>
 </resources>

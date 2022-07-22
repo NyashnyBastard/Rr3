@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_loading.xml" value="0.25" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_splash_one.xml" value="0.1956521739130435" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/page_recipe.xml" value="0.22" />
+        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/menu/custom_menu.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable-anydpi-v24/ic_stat_name.xml" value="0.2234375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2234375" />
@@ -18,5 +19,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>
