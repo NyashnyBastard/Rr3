@@ -17,4 +17,10 @@
     <color name="d_grey">#222224</color>
     <color name="yellow">#f5cfa2</color>
     <color name="fon2">#dad0c4</color>
+    <color name="green">#0b423f</color>
+    <color name="svetly">#CEE5D0</color>
+    <color name="sv_yellow">#F3F0D7</color>
+    <color name="sv_kor">#E0C097</color>
+    <color name="kor">#FF7878</color>
+
 </resources>
