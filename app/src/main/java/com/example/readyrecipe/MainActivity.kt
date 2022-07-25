@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //меняю цвет нижнего бара
         window.navigationBarColor = resources.getColor(R.color.white)
 
     }
