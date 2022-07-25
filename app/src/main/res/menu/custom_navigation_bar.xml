@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mFridge"
+        android:title="@+id/Ice"
+        android:icon="@drawable/ic_ice"/>
+    <item android:id="@+id/mNote"
+        android:title="Note"
+        android:icon="@drawable/ic_note"/>
+    <item android:id="@+id/mAdd"
+        android:title="@+id/Add"
+        android:icon="@drawable/ic_add"/>
+    <item android:id="@+id/mSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_search"/>
+    <item android:id="@+id/mSetting"
+        android:title="Setting"
+        android:icon="@drawable/ic_setting"/>
+
+
+
+
+
+</menu>

@@ -36,12 +36,10 @@
             android:textIsSelectable="false"
             android:textSize="20sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2"
-            app:layout_constraintVertical_bias="0.021" />
+            app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
 
         <HorizontalScrollView
             android:id="@+id/horizontalScrollView2"
@@ -117,64 +115,15 @@
 
         </SearchView>
 
-        <LinearLayout
-            android:id="@+id/linearLayout2"
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomBar"
+            app:menu="@menu/custom_navigation_bar"
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent">
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" >
 
-                <ImageButton
-                    android:id="@+id/imageButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="@color/material_on_primary_disabled"
-                    android:tint="@color/kor"
-                    app:srcCompat="@drawable/q2" />
-
-                <ImageButton
-                    android:id="@+id/imageButton4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="@color/material_on_primary_disabled"
-                    android:tint="@color/kor"
-                    app:srcCompat="@drawable/q5" />
-
-                <ImageButton
-                    android:id="@+id/imageButton5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="@color/material_on_primary_disabled"
-                    android:tint="@color/kor"
-                    app:srcCompat="@drawable/q4" />
-
-                <ImageButton
-                    android:id="@+id/imageButton9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="@color/material_on_primary_disabled"
-                    android:tint="@color/kor"
-                    app:srcCompat="@drawable/q1" />
-
-                <ImageButton
-                    android:id="@+id/imageButton10"
-                    android:layout_width="30dp"
-                    android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"
-                    android:backgroundTint="@color/material_on_primary_disabled"
-                    android:scaleType="centerInside"
-                    android:tint="@color/kor"
-                    app:srcCompat="@drawable/p2" />
-
-        </LinearLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

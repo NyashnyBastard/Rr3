@@ -5,7 +5,7 @@
 
     </style>
 
-    <style name="Widget.Theme.ReadyRecipe.ButtonBar.Fullscreen" parent="">
+    <style name="Widget.Theme.ReadyRecipe.ButtonBar.Fullscreen" parent="Theme.MaterialComponents">
         <item name="android:background">@color/fon</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
