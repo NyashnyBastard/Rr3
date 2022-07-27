@@ -95,8 +95,7 @@
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/svetly"
-        app:menu="@menu/custom_navigation_bar2"
+        app:menu="@menu/custom_navigation_bar"
         tools:layout_editor_absoluteX="-32dp"
         tools:layout_editor_absoluteY="677dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
