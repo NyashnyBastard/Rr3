@@ -13,6 +13,7 @@
         android:icon="@drawable/ic_add"/>
     <item android:id="@+id/mFridge"
         android:title="Ice"
+
         android:icon="@drawable/ic_ice"/>
     <item android:id="@+id/mSetting"
         android:title="Setting"

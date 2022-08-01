@@ -28,6 +28,7 @@ class FridgeActivity : AppCompatActivity() {
         recyclerView.adapter = ProductsAdapter(listProduct, this)
     }
 
+
     fun setNewListProduct(_listProduct:List<Product>) {
         println("#sa")
         listProduct = _listProduct.filter {  it.count>0f }

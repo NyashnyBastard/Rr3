@@ -21,23 +21,20 @@ class MainActivity : AppCompatActivity() {
         replaceFragment(Fragment_home())
         binding.bottomBar.setOnItemSelectedListener {
 
-            when(it.itemId){
+            when (it.itemId) {
 
                 R.id.mHome -> replaceFragment(Fragment_home())
                 R.id.mNote -> replaceFragment(Fragment_recipe())
-                R.id.mFridge -> replaceFragment(Fragment_fridge())
                 R.id.mSetting -> replaceFragment(Fragment_setting())
+                R.id.mFridge -> replaceFragment(Fragment_fridge())
 
-
-                else ->{
+                else -> {
 
                 }
             }
 
             true
         }
-
-
 
 
         //меняю цвет нижнего бара
@@ -47,14 +44,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     //основной метод для смены фрагментов в контейнере fragment_main
-    private fun replaceFragment(fragment:Fragment){
-        val fragmentManager=supportFragmentManager
+    private fun replaceFragment(fragment: Fragment) {
+        val fragmentManager = supportFragmentManager
         val fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.replace(R.id.fragment_main,fragment)
+        fragmentTransaction.replace(R.id.fragment_main, fragment)
         fragmentTransaction.commit()
 
     }
 
 
 
+
+    fun goToFridge(view: View) {
+        val goToFridgeIntent = Intent(this, FridgeActivity::class.java)
+        startActivity(goToFridgeIntent)
+        finish()
+
+
+    }
 }
