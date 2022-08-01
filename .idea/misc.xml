@@ -3,38 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/activity_main.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/fragment_fridge.xml" value="0.1" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/fragment_home.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/fragment_recipe.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/fragment_setting.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/menu.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/model_fridges.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/model_recipe.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/page_fridge.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/layout/page_recipe.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/Rr3/app/src/main/res/menu/custom_navigation_bar.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable/custom_baner.xml" value="0.206" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable/custom_fridges.xml" value="0.156" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable/custom_search.xml" value="0.2775" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable/qqq.xml" value="0.156" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_loading.xml" value="0.25" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_splash_one.xml" value="0.1956521739130435" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/fragment_item_list_product.xml" value="0.22644927536231885" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/fragment_item_product.xml" value="0.22644927536231885" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/menu.xml" value="0.26358695652173914" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/model_fridges.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/model_recipe.xml" value="0.33" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/page_fridge.xml" value="0.2" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/page_recipe.xml" value="0.22" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/menu/custom_bar_fridges.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/menu/custom_menu.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/menu/custom_navigation_bar.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/Admin1/AndroidStudioProjects/readyrecipe/app/src/main/res/menu/custom_navigation_bar2.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/drawable-anydpi-v24/ic_stat_name.xml" value="0.2234375" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/User/AndroidStudioProjects/readyrecipe/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2234375" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/activity_fridge.xml" value="0.264" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/activity_main.xml" value="0.2115036231884058" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/activity_splash_one.xml" value="0.2115036231884058" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/fragment_fridge.xml" value="0.2509057971014493" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/menu.xml" value="0.2115036231884058" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/model_fridges.xml" value="0.264" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/model_product.xml" value="0.2" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/model_recipe.xml" value="0.2" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/page_fridge.xml" value="0.2115036231884058" />
+        <entry key="..\:/Workspace/Rr3/app/src/main/res/layout/page_recipe.xml" value="0.2115036231884058" />
       </map>
     </option>
   </component>
