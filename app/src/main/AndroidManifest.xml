@@ -13,7 +13,7 @@
             android:name=".RecipeActivity"
             android:exported="false" />
         <activity
-            android:name=".FridgeActivity"
+            android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +29,7 @@
             android:name=".SplashActivityOne"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FridgeActivity"
             android:exported="true" >
         </activity>
     </application>

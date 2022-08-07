@@ -22,5 +22,6 @@
     <color name="sv_yellow">#F3F0D7</color>
     <color name="sv_kor">#E0C097</color>
     <color name="kor">#FF7878</color>
+    <color name="grey_fon">#FFDCDCDC</color>
 
 </resources>
