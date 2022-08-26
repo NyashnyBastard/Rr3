@@ -1,11 +1,10 @@
 package com.example.readyrecipe
 
+import Adapter.AdapterFilter
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.View
-import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.readyrecipe.databinding.ActivityMainBinding
 
@@ -17,6 +16,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        //viewPager.adapter = AdapterFilter(supportFragmentManager)
+
 
         replaceFragment(Fragment_home())
         binding.bottomBar.setOnItemSelectedListener {

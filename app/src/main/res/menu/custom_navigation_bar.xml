@@ -3,20 +3,20 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/mHome"
-        android:title="Home"
+        android:title="Главная"
         android:icon="@drawable/ic_home"/>
     <item android:id="@+id/mNote"
-        android:title="Note"
+        android:title="Рецепты"
         android:icon="@drawable/ic_note"/>
     <item android:id="@+id/mAdd"
-        android:title="Add"
+        android:title="Добавить"
         android:icon="@drawable/ic_add"/>
     <item android:id="@+id/mFridge"
-        android:title="Ice"
+        android:title="Холодильник"
 
         android:icon="@drawable/ic_ice"/>
     <item android:id="@+id/mSetting"
-        android:title="Setting"
+        android:title="Настройки"
         android:icon="@drawable/ic_setting"/>
 
 
