@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.readyrecipe.FridgeActivity
 import com.example.readyrecipe.Product
 import com.example.readyrecipe.R
 
@@ -14,15 +13,12 @@ class ProductsAdapter(val products: List<Product>, _context: Context): RecyclerV
     var context = _context
     class PlantHolder(item: View): RecyclerView.ViewHolder(item) {
         val textTitle: TextView = item.findViewById(R.id.textName)
-        val editCount: TextView = item.findViewById(R.id.editCount)
+        val editCount: TextView = item.findViewById(R.id.editAddCount)
+        val textUnit: TextView = item.findViewById(R.id.textUnit)
         fun bind(product:Product, context: Context) {
             textTitle.text = product.name
-            if (product.count>0) {
-                editCount.text = product.count.toString()
-            }
-            else{
-                editCount.text = ""
-            }
+            editCount.text = product.count
+            textUnit.text = product.unit
 
         }
 
@@ -43,8 +39,7 @@ class ProductsAdapter(val products: List<Product>, _context: Context): RecyclerV
                 println("#lost")
                 try {
                     val product = products.get(position)
-                    product.count = holder.editCount.text.toString().toInt()
-                    (context as FridgeActivity).setNewListProduct(products)
+                    product.count = holder.editCount.text.toString()
                     println(products)
                 } catch (e: Exception) {
                     println(e.message)

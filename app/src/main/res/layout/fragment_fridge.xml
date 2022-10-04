@@ -25,7 +25,7 @@
             app:layout_constraintStart_toStartOf="parent" />
 
         <LinearLayout
-            android:id="@+id/linearLayout2"
+            android:id="@+id/layoutAddProduct"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -44,7 +44,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editName"
+                    android:id="@+id/editAddName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -59,7 +59,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editCount"
+                    android:id="@+id/editAddCount"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -75,7 +75,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editUnit"
+                    android:id="@+id/editAddUnit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -103,7 +103,7 @@
             android:layout_height="350dp"
             android:layout_marginStart="15dp"
             android:layout_marginEnd="15dp"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintBottom_toTopOf="@+id/layoutAddProduct"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"

@@ -15,8 +15,6 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/chip12"
-                app:checkedIconVisible="true"
-                app:chipIconVisible="false"
                 android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:checkable="true"
