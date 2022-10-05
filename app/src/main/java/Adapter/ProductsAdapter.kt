@@ -1,4 +1,4 @@
-package database
+package Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -15,7 +15,7 @@ class ProductsAdapter(val products: List<Product>, _context: Context): RecyclerV
         val textTitle: TextView = item.findViewById(R.id.textName)
         val editCount: TextView = item.findViewById(R.id.editAddCount)
         val textUnit: TextView = item.findViewById(R.id.textUnit)
-        fun bind(product:Product, context: Context) {
+        fun bind(product: Product, context: Context) {
             textTitle.text = product.name
             editCount.text = product.count
             textUnit.text = product.unit

@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import database.ProductBuilder
-import database.ProductsAdapter
+import Adapter.ProductsAdapter
 
 class FridgeActivity : AppCompatActivity() {
     lateinit var db: ProductBuilder
