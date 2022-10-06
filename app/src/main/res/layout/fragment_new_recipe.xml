@@ -6,101 +6,152 @@
     android:layout_height="match_parent"
     tools:context=".NewRecipeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название рецепта"
+            android:textColor="@color/d_grey"
+            android:textSize="16sp"
+            app:autoSizeTextType="none"
+            app:fontFamily="sans-serif-medium"
+            app:textAllCaps="true" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="5dp"
-            android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:background="#4DB6AC"
+            android:gravity="center"
+            android:text="Состав"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Название рецепта"
-                android:textSize="16sp"
-                app:autoSizeTextType="none"
-                app:fontFamily="sans-serif-medium"
-                app:textAllCaps="true" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#B2DFDB">
 
-            <EditText
-                android:id="@+id/editTextTextMultiLine"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:gravity="start|top"
-                android:inputType="textMultiLine" />
-        </LinearLayout>
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4DB5AB"
+            android:fontFamily="sans-serif-medium"
+            android:text="Добавить ингредиент"
+            android:textAlignment="center"
+            android:textColor="#F5F4F4"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#26C6DA"
+            android:backgroundTint="#26C6DA"
+            android:gravity="center"
+            android:text="Приготовление"
+            android:textColor="@color/green"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#B2EBF2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#26C6DA"
+            android:fontFamily="sans-serif-medium"
+            android:text="Добавить шаг"
+            android:textAlignment="center"
+            android:textColor="#F6F5F5"
+            android:textSize="20sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Состав"
-                android:textSize="20sp" />
+                android:backgroundTint="@color/material_on_primary_disabled"
+                android:src="@android:drawable/ic_menu_close_clear_cancel" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-
-                <ScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical" >
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <Spinner
-                                android:id="@+id/spinner"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1" />
-
-                            <EditText
-                                android:id="@+id/editTextNumber"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:ems="10"
-                                android:inputType="number" />
-
-                            <EditText
-                                android:id="@+id/editTextTextPersonName"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:ems="10"
-                                android:inputType="textPersonName"
-                                android:text="Name" />
-                        </LinearLayout>
-                    </LinearLayout>
-                </ScrollView>
-
-            </LinearLayout>
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/material_on_primary_disabled"
+                android:src="@android:drawable/ic_menu_save" />
         </LinearLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
 
 </FrameLayout>

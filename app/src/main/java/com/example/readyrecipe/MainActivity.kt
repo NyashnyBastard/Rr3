@@ -1,6 +1,5 @@
 package com.example.readyrecipe
 
-import Adapter.AdapterFilter
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -30,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.mNote -> replaceFragment(Fragment_recipe())
                 R.id.mSetting -> replaceFragment(Fragment_setting())
                 R.id.mFridge -> replaceFragment(Fragment_fridge())
+                R.id.mAdd -> replaceFragment(NewRecipeFragment())
 
                 else -> {
 
@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
 
         //меняю цвет нижнего бара
         window.navigationBarColor = resources.getColor(R.color.white)
+
 
 
     }
