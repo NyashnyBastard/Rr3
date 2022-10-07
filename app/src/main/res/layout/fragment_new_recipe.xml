@@ -21,19 +21,22 @@
             android:layout_height="wrap_content"
             android:text="Название рецепта"
             android:textColor="@color/d_grey"
-            android:textSize="16sp"
+            android:textSize="15sp"
             app:autoSizeTextType="none"
             app:fontFamily="sans-serif-medium"
             app:textAllCaps="true" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine"
+
+            android:id="@+id/name_recipe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:gravity="start|top"
-            android:inputType="textMultiLine" />
+            android:hint="Введите название"
+
+            android:inputType="textImeMultiLine" />
     </LinearLayout>
 
     <LinearLayout
